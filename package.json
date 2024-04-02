@@ -1,0 +1,22 @@
+{
+	"name": "btakita.github.io",
+	"type": "module",
+	"scripts": {
+		"build": "bun run build",
+		"clear": "bun clear",
+		"dev": "bun dev",
+		"start": "bun start"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"@btakita/dev-bin": "workspace:*",
+		"@ctx-core/dev-tools": "^8.3.30",
+		"@ctx-core/monorepo": "^21.4.89"
+	},
+	"peerDependencies": {
+		"typescript": "^5.4.3"
+	},
+	"workspaces": [
+		"lib/*"
+	]
+}

@@ -1,0 +1,7 @@
+[submodule "gh-pages"]
+	branch = gh-pages
+	path = gh-pages
+	url = git@github.com:btakita/btakita.github.io.git
+[submodule "lib/dev-bin"]
+	path = lib/dev-bin
+	url = git@github.com:btakita/dev-bin.git
